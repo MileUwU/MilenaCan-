@@ -1,0 +1,57 @@
+body { 
+    background-color: #63b5eb;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ffd700;
+}
+
+/* Navegación */
+nav {
+    background-color: #2a3c64;
+    padding: 10px;
+}
+
+nav a {
+    color: #ff4444;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Contenedor de texto */
+.texto, section {
+    background-color: #2a3c64;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Centrar y dar forma a imágenes y videos */
+img, video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+img:hover, video:hover {
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    background-color: #1c1c1c;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px 15px 0 0;
+}
